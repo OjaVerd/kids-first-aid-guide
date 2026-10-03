@@ -1,0 +1,109 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Search first aid guidance for common minor childhood injuries and illnesses.">
+  <title>Kids First Aid Guide</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer=""></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <h1>Kids First Aid Guide</h1>
+    <p class="tagline">Quick first aid help for common childhood injuries</p>
+    <p class="emergency-note" role="note">
+      <strong>Emergency?</strong> Call 911 now. This site gives general
+      information and does not replace professional medical advice.
+    </p>
+  </header>
+
+  <main id="main">
+
+    <!-- Search and filter -->
+    <section class="controls" aria-labelledby="search-heading">
+      <h2 id="search-heading">Find a condition</h2>
+      <form role="search" id="search-form">
+        <div class="field">
+          <label for="search-input">Search by name or symptom</label>
+          <input type="search" id="search-input" name="search" autocomplete="off" placeholder="For example: nosebleed">
+        </div>
+        <div class="field">
+          <label for="category-select">Category</label>
+          <select id="category-select" name="category">
+            <option value="all">All categories</option>
+            
+          </select>
+        </div>
+      </form>
+    </section>
+
+    <!-- Async status messages -->
+    <p id="loading" class="status" role="status" aria-live="polite">Loading conditions...</p>
+    <p id="error" class="status status-error" role="alert" hidden="">
+      Could not load the conditions. Check your connection and try again.
+    </p>
+    <p id="result-count" class="status" aria-live="polite"></p>
+
+    <!-- Results list -->
+    <section class="results" aria-labelledby="results-heading">
+      <h2 id="results-heading">Conditions</h2>
+      <ul id="condition-list" class="card-grid">
+    
+      </ul>
+      <p id="no-results" hidden="">No conditions match your search. Try a different word or choose All categories.</p>
+    </section>
+
+    <!-- Detail view -->
+    <section class="details" aria-labelledby="details-heading">
+      <h2 id="details-heading" tabindex="-1">Condition details</h2>
+      <p id="details-placeholder">Select a condition above to see what to do.</p>
+
+      <article id="condition-details" hidden="">
+        <h3 id="detail-title"></h3>
+        <p id="detail-summary"></p>
+
+        <section class="emergency-box" aria-labelledby="emergency-heading">
+          <h4 id="emergency-heading">Call 911 or go to the ER if:</h4>
+          <ul id="detail-emergency"></ul>
+        </section>
+
+        <section aria-labelledby="steps-heading">
+          <h4 id="steps-heading">First aid steps</h4>
+          <ol id="detail-steps"></ol>
+        </section>
+
+        <section aria-labelledby="watch-heading">
+          <h4 id="watch-heading">What to watch for</h4>
+          <ul id="detail-watch"></ul>
+        </section>
+
+        <section aria-labelledby="sources-heading">
+          <h4 id="sources-heading">Sources</h4>
+          <ul id="detail-sources"></ul>
+        </section>
+
+        <button type="button" id="save-button">Save to my list</button>
+      </article>
+    </section>
+
+    <!-- localStorage list -->
+    <section class="saved" aria-labelledby="saved-heading">
+      <h2 id="saved-heading">My saved conditions</h2>
+      <p id="saved-empty">You have not saved any conditions yet.</p>
+      <ul id="saved-list"></ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Content is written in my own words, based on guidance from the American
+      Academy of Pediatrics and other cited sources. See the README for full
+      data source credits. This project is not affiliated with or endorsed by
+      the American Academy of Pediatrics.
+    </p>
+  </footer>
+
+
+</body></html>
