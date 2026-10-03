@@ -1,0 +1,163 @@
+[
+  {
+    "id": "nosebleed",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "head-injury",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "scrapes-scratches",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "eyelid-lesions",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "insect-bites-stings",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "sprain-twists",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "foreign-body-eye",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "splinter",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "hangnail",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "nail-crush-injury",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "bike-scooter-injury",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "headache",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "allergies",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "minor-burns",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "contact-dermatitis-poison-ivy",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }, 
+  {
+    "id": "mild-dehydration",
+    "title": "condition",
+    "category": "Injuries",
+    "summary": "One short sentence for the card.",
+    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
+    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
+    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
+    "sources": ["Placeholder source"]
+  }
+  
+]
