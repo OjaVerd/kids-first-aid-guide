@@ -35,8 +35,8 @@ async function loadConditions() {
       throw new Error("Status " + response.status);
     }
     allConditions = await response.json();
-    buildPanels();
-    filterPanels();
+    buildList();
+    filterList();
   } catch (err) {
     console.error(err);
     error.hidden = false;
@@ -50,55 +50,15 @@ function buildList() {
   allConditions.forEach((c) => {
     const li = document.createElement("li");
     li.dataset.id = c.id;
- 
+
     const link = document.createElement("a");
     link.href = "condition.html?id=" + encodeURIComponent(c.id);
     link.textContent = c.title;
- 
+
     const summary = document.createElement("p");
     summary.textContent = c.summary;
- 
+
     li.append(link, summary);
-    list.appendChild(li);
-  });
-}
-
-function makeSection(title, items, listTag) {
-  const section = document.createElement("section");
-  const heading = document.createElement("h3");
-  heading.textContent = title;
-  const ul = document.createElement(listTag);
-  items.forEach((item) => {
-    const li = document.createElement("li");
-    li.textContent = typeof item === "object" ? item.title : item;
-    ul.appendChild(li);
-  });
-  section.append(heading, ul);
-  return section;
-}
-
-function buildPanels() {
-  list.replaceChildren();
-  allConditions.forEach((c) => {
-    const li = document.createElement("li");
-    const details = document.createElement("details");
-    details.id = c.id;
-
-    const summary = document.createElement("summary");
-    summary.textContent = c.title;
-
-    const text = document.createElement("p");
-    text.textContent = c.summary;
-
-    details.append(
-      summary,
-      text,
-      makeSection("Call 911 or go to the ER if:", c.callEmergencyIf, "ul"),
-      makeSection("First aid steps", c.steps, "ol"),
-      makeSection("What to watch for", c.watchFor, "ul"),
-      makeSection("Sources", c.sources, "ul")
-    );
-    li.appendChild(details);
     list.appendChild(li);
   });
 }
@@ -106,41 +66,26 @@ function buildPanels() {
 function getMatches() {
   const text = input.value.trim().toLowerCase();
   return allConditions.filter((c) =>
-    (c.title + " " + c.summary + " " + c.category).toLowerCase().includes(text)
+    [c.title, c.summary, c.category, ...(c.keywords || [])]
+      .join(" ")
+      .toLowerCase()
+      .includes(text)
   );
 }
 
 function filterList() {
   const matches = getMatches();
- 
+
   list.querySelectorAll("li").forEach((li) => {
     li.hidden = !matches.some((c) => c.id === li.dataset.id);
   });
- 
+
   noResults.hidden = matches.length > 0;
   count.textContent =
     matches.length + (matches.length === 1 ? " condition" : " conditions") + " shown";
 }
- 
+
 input.addEventListener("input", filterList);
 form.addEventListener("submit", (e) => e.preventDefault());
-
-
-function jumpToFirstMatch() {
-  const matches = getMatches();
-  if (matches.length === 0) {
-    return;
-  }
-  const details = document.getElementById(matches[0].id);
-  details.open = true;
-  details.scrollIntoView({ behavior: "smooth" });
-}
-
-input.addEventListener("input", filterPanels);
-
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  jumpToFirstMatch();
-});
 
 loadConditions();
