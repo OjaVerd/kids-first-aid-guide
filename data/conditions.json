@@ -2,145 +2,145 @@
   {
     "id": "nosebleed",
     "title": "Nosebleed",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "Bleeding from the nose, common in children.",
+    "callEmergencyIf": ["Bleeding lasts more than 15 minutes", "Child is having trouble breathing"],
+    "steps": ["Have the child sit and lean slightly forward; pinch the soft part of the nose for 10–15 minutes", "Apply a cold pack to the bridge of the nose if needed"],
+    "watchFor": ["Repeated or heavy bleeding", "Dizziness or fainting"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/conditions/ear-nose-throat/Pages/a-broken-nose-and-other-nasal-injuries-in-children.aspx"]
   },
   {
     "id": "head-injury",
     "title": "Head Injury",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "Bumps or blows to the head that may cause concussion or worse.",
+    "callEmergencyIf": ["Loss of consciousness or repeated vomiting", "Severe drowsiness, confusion, or unequal pupil size"],
+    "steps": ["Keep the child still and calm; monitor breathing and responsiveness", "Apply a cold pack to any bump to reduce swelling"],
+    "watchFor": ["Worsening headache, repeated vomiting, or changes in behavior", "Difficulty walking, slurred speech, or seizures"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Head-Injury.aspx"]
   },
   {
     "id": "scrapes-scratches",
     "title": "Scrapes & Scratches",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "Minor skin abrasions from falls or contact with rough surfaces.",
+    "callEmergencyIf": ["Deep wound with heavy bleeding", "Dirt or debris that cannot be removed easily"],
+    "steps": ["Clean gently with soap and water; rinse thoroughly", "Apply an antibiotic ointment and cover with a clean bandage"],
+    "watchFor": ["Increasing redness, swelling, or pus", "Fever or spreading warmth around the wound"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Cuts-and-Scrapes.aspx"]
   },
   {
     "id": "eyelid-lesions",
     "title": "Eyelid Lesions",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "Cuts, bumps, or small injuries to the eyelid area.",
+    "callEmergencyIf": ["Vision changes or eye pain", "Large cut that may need stitches"],
+    "steps": ["Rinse the area gently with clean water; avoid rubbing the eye", "Apply gentle pressure with a clean cloth for bleeding; seek care for deep cuts"],
+    "watchFor": ["Redness, discharge, or worsening swelling", "Any change in vision"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Eye-Injuries.aspx"]
   },
   {
     "id": "insect-bites-stings",
     "title": "Insect Bites & Stings",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "Bites or stings from insects that usually cause local pain or swelling.",
+    "callEmergencyIf": ["Signs of anaphylaxis: difficulty breathing, swelling of face or throat", "Multiple stings with systemic symptoms"],
+    "steps": ["Remove stinger if present; wash area with soap and water", "Apply a cold pack and give an antihistamine if appropriate for mild itching"],
+    "watchFor": ["Increasing swelling, redness, or spreading warmth", "Hives, wheezing, or dizziness"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/conditions/Allergies/Pages/Insect-Stings.aspx"]
   },
   {
     "id": "sprain-twists",
     "title": "Sprains & Twists",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "Injury to ligaments from twisting or rolling a joint.",
+    "callEmergencyIf": ["Deformity or inability to move the limb", "Severe pain or numbness"],
+    "steps": ["Use RICE: Rest, Ice, Compression, Elevation for the injured area", "Limit weight-bearing and seek evaluation if pain is severe"],
+    "watchFor": ["Increasing pain, swelling, or bruising", "Persistent inability to use the joint"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Sprains-and-Strains.aspx"]
   },
   {
     "id": "foreign-body-eye",
-    "title": "Foreign, Body, Eye",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "title": "Foreign Body in Eye",
+    "summary": "Something stuck in the eye causing irritation or pain.",
+    "callEmergencyIf": ["Object embedded in the eye or vision changes", "Severe pain that does not improve"],
+    "steps": ["Do not rub the eye; try flushing with clean water or saline", "If the object is visible and not embedded, gently remove with a clean, damp cloth"],
+    "watchFor": ["Persistent redness, pain, or vision problems", "Discharge or inability to open the eye"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Eye-Injuries.aspx"]
   },
   {
     "id": "splinter",
     "title": "Splinter",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "Small piece of wood, glass, or metal embedded in the skin.",
+    "callEmergencyIf": ["Splinter is deep, large, or near the eye", "Signs of infection develop"],
+    "steps": ["Clean the area; use sterilized tweezers to remove the splinter if visible", "Wash again and apply an antibiotic ointment and bandage if needed"],
+    "watchFor": ["Redness, increasing pain, or pus", "Fever or spreading redness"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Cuts-and-Scrapes.aspx"]
   },
   {
     "id": "hangnail",
     "title": "Hangnail",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "Small torn piece of skin at the edge of a fingernail or toenail.",
+    "callEmergencyIf": ["Severe pain, spreading redness, or pus", "If the area is very swollen or the child has fever"],
+    "steps": ["Trim the loose skin with clean nail clippers; soak in warm water if painful", "Apply antibiotic ointment if the area is irritated"],
+    "watchFor": ["Increasing redness, swelling, or drainage", "Difficulty using the finger or toe"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Cuts-and-Scrapes.aspx"]
   },
   {
     "id": "nail-crush-injury",
     "title": "Nail Crush Injury",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "Crushing injury to a fingernail or toenail, often painful and swollen.",
+    "callEmergencyIf": ["Severe bleeding that won't stop", "Nail is partially or completely torn off"],
+    "steps": ["Elevate and apply gentle pressure to control bleeding; ice to reduce swelling", "Clean the area and cover with a sterile dressing; seek care for severe injury"],
+    "watchFor": ["Increasing pain, swelling, or signs of infection", "Nail bed deformity or persistent numbness"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Cuts-and-Scrapes.aspx"]
   },
   {
     "id": "bike-scooter-injury",
     "title": "Bike/Scooter Injury",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "Injuries from falls while riding bikes or scooters.",
+    "callEmergencyIf": ["Head injury with loss of consciousness or severe bleeding", "Suspected broken bone or inability to move a limb"],
+    "steps": ["Stop activity and check for injuries; control bleeding and immobilize suspected fractures", "If head injury suspected, monitor closely and seek medical evaluation"],
+    "watchFor": ["Worsening pain, swelling, or deformity", "Nausea, vomiting, or confusion after a head impact"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Bicycle-Safety.aspx"]
   },
   {
     "id": "headache",
     "title": "Headache",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "Pain or pressure in the head; common and usually not serious.",
+    "callEmergencyIf": ["Sudden severe headache unlike any before", "Headache with fever, stiff neck, or neurological changes"],
+    "steps": ["Have the child rest in a quiet, dark room and offer fluids", "Use age-appropriate pain relief per dosing guidance if needed"],
+    "watchFor": ["Worsening or persistent headaches, changes in vision", "Vomiting, confusion, or weakness"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/conditions/Pages/Headaches.aspx"]
   },
   {
     "id": "allergies",
     "title": "Allergies",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "Immune reactions to foods, pollen, pets, or other triggers.",
+    "callEmergencyIf": ["Signs of anaphylaxis: difficulty breathing, swelling of face or throat", "Widespread hives with breathing difficulty"],
+    "steps": ["Remove the trigger if possible; give antihistamine for mild symptoms if appropriate", "For severe reactions, use epinephrine auto-injector and call 911"],
+    "watchFor": ["Progressive swelling, wheezing, or persistent vomiting", "Dizziness or fainting"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/conditions/Allergies/Pages/default.aspx"]
   },
   {
     "id": "minor-burns",
     "title": "Minor Burns",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "First-degree or small second-degree burns affecting only the top layers of skin.",
+    "callEmergencyIf": ["Burn covers a large area, is deep, or involves face/hands/genitals", "Burn from chemicals or electricity"],
+    "steps": ["Cool the burn under running cool (not cold) water for 10–20 minutes", "Cover with a clean, non-stick dressing and seek care if blistering is extensive"],
+    "watchFor": ["Increasing pain, redness, or signs of infection", "Blisters that break and become red or oozing"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Burns.aspx"]
   },
   {
     "id": "contact-dermatitis-poison-ivy",
     "title": "Contact Dermatitis / Poison Ivy",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "Skin reaction from contact with irritants or plants like poison ivy.",
+    "callEmergencyIf": ["Swelling of face or eyes, or signs of infection", "Widespread rash or breathing difficulty"],
+    "steps": ["Wash the area with soap and water as soon as possible", "Apply cool compresses and consider topical steroid or antihistamine for itching"],
+    "watchFor": ["Increasing redness, pus, or fever", "Rash spreading or severe discomfort"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/conditions/skin/Pages/Poison-Ivy-Oak-and-Sumac.aspx"]
   },
   {
     "id": "mild-dehydration",
     "title": "Mild Dehydration",
-    "summary": "One short sentence for the card.",
-    "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
-    "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
-    "watchFor": ["Placeholder warning sign one", "Placeholder warning sign two"],
-    "sources": ["Placeholder source"]
+    "summary": "Loss of fluids from vomiting, diarrhea, or not drinking enough.",
+    "callEmergencyIf": ["Very little or no urine, extreme lethargy, or dry mouth", "Inability to keep fluids down"],
+    "steps": ["Offer small, frequent sips of an oral rehydration solution or clear fluids", "Encourage rest and monitor urine output and alertness"],
+    "watchFor": ["Decreased urine output, sunken eyes, or persistent vomiting", "Dizziness or rapid heartbeat"],
+    "sources": ["https://www.healthychildren.org/English/health-issues/conditions/Pages/Dehydration.aspx"]
   }
 ]

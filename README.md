@@ -60,7 +60,7 @@ Then open http://localhost:8000.
 Condition content in `data/conditions.json` was written in my own words
 based on guidance from the following sources:
 
-- American Academy of Pediatrics (HealthyChildren.org) (Eventually will be used)
+- American Academy of Pediatrics (HealthyChildren.org)
 
 This project is not affiliated with or endorsed by the American Academy
 of Pediatrics.
