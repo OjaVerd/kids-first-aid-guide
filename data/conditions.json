@@ -2,7 +2,6 @@
   {
     "id": "nosebleed",
     "title": "Nosebleed",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -12,7 +11,6 @@
   {
     "id": "head-injury",
     "title": "Head Injury",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -22,7 +20,6 @@
   {
     "id": "scrapes-scratches",
     "title": "Scrapes & Scratches",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -32,7 +29,6 @@
   {
     "id": "eyelid-lesions",
     "title": "Eyelid Lesions",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -42,7 +38,6 @@
   {
     "id": "insect-bites-stings",
     "title": "Insect Bites & Stings",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -52,7 +47,6 @@
   {
     "id": "sprain-twists",
     "title": "Sprains & Twists",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -61,8 +55,7 @@
   },
   {
     "id": "foreign-body-eye",
-    "title": "Foreign Body in Eye",
-    "category": "Injuries",
+    "title": "Foreign, Body, Eye",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -72,7 +65,6 @@
   {
     "id": "splinter",
     "title": "Splinter",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -82,7 +74,6 @@
   {
     "id": "hangnail",
     "title": "Hangnail",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -92,7 +83,6 @@
   {
     "id": "nail-crush-injury",
     "title": "Nail Crush Injury",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -102,7 +92,6 @@
   {
     "id": "bike-scooter-injury",
     "title": "Bike/Scooter Injury",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -112,7 +101,6 @@
   {
     "id": "headache",
     "title": "Headache",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -122,7 +110,6 @@
   {
     "id": "allergies",
     "title": "Allergies",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -132,7 +119,6 @@
   {
     "id": "minor-burns",
     "title": "Minor Burns",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -142,7 +128,6 @@
   {
     "id": "contact-dermatitis-poison-ivy",
     "title": "Contact Dermatitis / Poison Ivy",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
@@ -152,7 +137,6 @@
   {
     "id": "mild-dehydration",
     "title": "Mild Dehydration",
-    "category": "Injuries",
     "summary": "One short sentence for the card.",
     "callEmergencyIf": ["Placeholder emergency sign one", "Placeholder emergency sign two"],
     "steps": ["Placeholder step one", "Placeholder step two", "Placeholder step three"],
