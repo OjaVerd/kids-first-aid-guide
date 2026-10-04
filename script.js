@@ -45,6 +45,24 @@ async function loadConditions() {
   }
 }
 
+function buildList() {
+  list.replaceChildren();
+  allConditions.forEach((c) => {
+    const li = document.createElement("li");
+    li.dataset.id = c.id;
+ 
+    const link = document.createElement("a");
+    link.href = "condition.html?id=" + encodeURIComponent(c.id);
+    link.textContent = c.title;
+ 
+    const summary = document.createElement("p");
+    summary.textContent = c.summary;
+ 
+    li.append(link, summary);
+    list.appendChild(li);
+  });
+}
+
 function makeSection(title, items, listTag) {
   const section = document.createElement("section");
   const heading = document.createElement("h3");
@@ -92,21 +110,21 @@ function getMatches() {
   );
 }
 
-function filterPanels() {
+function filterList() {
   const matches = getMatches();
-  const searching = input.value.trim() !== "";
-
-  allConditions.forEach((c) => {
-    const details = document.getElementById(c.id);
-    details.closest("li").hidden = !matches.includes(c);
-    if (!searching) {
-      details.open = false;
-    }
+ 
+  list.querySelectorAll("li").forEach((li) => {
+    li.hidden = !matches.some((c) => c.id === li.dataset.id);
   });
-
+ 
   noResults.hidden = matches.length > 0;
-  count.textContent = matches.length + " conditions shown";
+  count.textContent =
+    matches.length + (matches.length === 1 ? " condition" : " conditions") + " shown";
 }
+ 
+input.addEventListener("input", filterList);
+form.addEventListener("submit", (e) => e.preventDefault());
+
 
 function jumpToFirstMatch() {
   const matches = getMatches();

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Condition | Kids First Aid Guide</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="condition.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <p><a href="index.html">&larr; Kids First Aid Guide: all conditions</a></p>
+    <p class="emergency-note" role="note">
+      <strong>Emergency?</strong> Call 911 now. This site gives general
+      information and does not replace professional medical advice.
+    </p>
+  </header>
+
+  <main id="main">
+    <p id="loading" role="status">Loading...</p>
+    <p id="error" role="alert" hidden>Could not load this page. Please try again.</p>
+    <p id="not-found" role="alert" hidden>
+      We could not find that condition. <a href="index.html">Return to the list.</a>
+    </p>
+
+    <article id="condition" hidden>
+      <h1 id="title"></h1>
+      <p id="summary"></p>
+
+      <section class="emergency-box" aria-labelledby="emergency-heading">
+        <h2 id="emergency-heading">Call 911 or go to the ER if:</h2>
+        <ul id="emergency"></ul>
+      </section>
+
+      <section aria-labelledby="steps-heading">
+        <h2 id="steps-heading">First aid steps</h2>
+        <ol id="steps"></ol>
+      </section>
+
+      <section aria-labelledby="watch-heading">
+        <h2 id="watch-heading">What to watch for</h2>
+        <ul id="watch"></ul>
+      </section>
+
+      <section aria-labelledby="sources-heading">
+        <h2 id="sources-heading">Sources</h2>
+        <ul id="sources"></ul>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Content is written in my own words, based on guidance from the American
+      Academy of Pediatrics and other cited sources. This project is not
+      affiliated with or endorsed by the American Academy of Pediatrics.
+    </p>
+  </footer>
+</body>
+</html>
