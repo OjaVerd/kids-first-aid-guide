@@ -6,7 +6,9 @@
   <meta name="description" content="Search first aid guidance for common minor childhood injuries and illnesses.">
   <title>Kids First Aid Guide</title>
   <link rel="stylesheet" href="style.css">
+  <script src="saved.js" defer></script>
   <script src="script.js" defer=""></script>
+  
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
@@ -19,7 +21,7 @@
       information and does not replace professional medical advice.
     </p>
   </header>
-  <main>
+  <main id = "main">
     <form id="search-form" role="search">
       <label for="search-input">Search conditions</label>
       <input type="search" id="search-input" autocomplete="off">
@@ -27,7 +29,7 @@
 
     <p id="loading" role="status">Loading conditions...</p>
     <p id="error" role="alert" hidden>Could not load the conditions. Please try again.</p>
-    <p id="result-count" aria-live="polite"></p>
+    <p id="saved-count" aria-live="polite"></p>
     <p id="no-results" hidden>No conditions match your search.</p>
 
     <details id ="all-conditions">

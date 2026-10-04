@@ -2,6 +2,7 @@ const loading = document.getElementById("loading");
 const error = document.getElementById("error");
 const notFound = document.getElementById("not-found");
 const article = document.getElementById("condition");
+const saveButton = document.getElementById("save-button");
 
 const id = new URLSearchParams(window.location.search).get("id");
 
@@ -32,6 +33,14 @@ async function loadCondition() {
   }
 }
 
+
+function updateSaveButton() {
+  const saved = isSaved(id);
+  saveButton.textContent = saved ? "Remove from saved" : "Save this condition";
+  saveButton.setAttribute("aria-pressed", saved);
+}
+
+
 function fillList(listId, items) {
   const ul = document.getElementById(listId);
   ul.replaceChildren();
@@ -60,6 +69,12 @@ function showCondition(c) {
   fillList("watch", c.watchFor);
   fillList("sources", c.sources);
   article.hidden = false;
+  updateSaveButton();
 }
+
+saveButton.addEventListener("click", () => {
+  toggleSaved(id);
+  updateSaveButton();
+});
 
 loadCondition();

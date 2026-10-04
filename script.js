@@ -24,7 +24,8 @@ const form = document.getElementById("search-form");
 const input = document.getElementById("search-input");
 const list = document.getElementById("condition-list");
 const noResults = document.getElementById("no-results");
-const count = document.getElementById("result-count");
+const count = document.getElementById("saved-count")
+const tab = document.getElementById("all-conditions");
 
 let allConditions = [];
 
@@ -75,17 +76,24 @@ function getMatches() {
 
 function filterList() {
   const matches = getMatches();
+  
+  tab.open = input.value.trim() !== "";
 
   list.querySelectorAll("li").forEach((li) => {
     li.hidden = !matches.some((c) => c.id === li.dataset.id);
   });
 
   noResults.hidden = matches.length > 0;
-  count.textContent =
-    matches.length + (matches.length === 1 ? " condition" : " conditions") + " shown";
 }
 
+function updateSavedCount() {
+  const total = getSaved().length;
+  count.textContent = total + (total === 1 ? " condition saved" : " conditions saved");
+}
+ 
 input.addEventListener("input", filterList);
 form.addEventListener("submit", (e) => e.preventDefault());
-
+window.addEventListener("pageshow", updateSavedCount);
+ 
+updateSavedCount();
 loadConditions();
