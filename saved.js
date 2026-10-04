@@ -24,3 +24,7 @@ function toggleSaved(id) {
   const saved = getSaved();
   setSaved(isSaved(id) ? saved.filter((savedId) => savedId !== id) : [...saved, id]);
 }
+
+function clearSaved() {
+  setSaved([]);
+}

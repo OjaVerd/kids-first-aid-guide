@@ -26,6 +26,10 @@ const list = document.getElementById("condition-list");
 const noResults = document.getElementById("no-results");
 const count = document.getElementById("saved-count")
 const tab = document.getElementById("all-conditions");
+const savedList = document.getElementById("saved-list");
+const savedEmpty = document.getElementById("saved-empty");
+const clearButton = document.getElementById("clear-saved");
+
 
 let allConditions = [];
 
@@ -38,6 +42,7 @@ async function loadConditions() {
     allConditions = await response.json();
     buildList();
     filterList();
+    renderSaved();
   } catch (err) {
     console.error(err);
     error.hidden = false;
@@ -90,10 +95,58 @@ function updateSavedCount() {
   const total = getSaved().length;
   count.textContent = total + (total === 1 ? " condition saved" : " conditions saved");
 }
+
+function renderSaved() {
+  updateSavedCount();
+  if (allConditions.length === 0) {
+    return;
+  }
  
+  const saved = getSaved().filter((id) => allConditions.some((c) => c.id === id));
+  savedList.replaceChildren();
+ 
+  saved.forEach((id) => {
+    const c = allConditions.find((item) => item.id === id);
+    const li = document.createElement("li");
+ 
+    const link = document.createElement("a");
+    link.href = "condition.html?id=" + encodeURIComponent(id);
+    link.textContent = c.title;
+ 
+    const remove = document.createElement("button");
+    remove.type = "button";
+    remove.textContent = "Remove";
+    remove.dataset.id = id;
+    remove.setAttribute("aria-label", "Remove " + c.title + " from saved");
+ 
+    li.append(link, " ", remove);
+    savedList.appendChild(li);
+  });
+ 
+  savedEmpty.hidden = saved.length > 0;
+  clearButton.hidden = saved.length === 0;
+}
+ 
+
+
 input.addEventListener("input", filterList);
 form.addEventListener("submit", (e) => e.preventDefault());
-window.addEventListener("pageshow", updateSavedCount);
+window.addEventListener("pageshow", renderSaved);
  
+savedList.addEventListener("click", (e) => {
+  const button = e.target.closest("button[data-id]");
+  if (button) {
+    toggleSaved(button.dataset.id);
+    renderSaved();
+  }
+});
+ 
+clearButton.addEventListener("click", () => {
+  if (confirm("Remove all saved conditions?")) {
+    clearSaved();
+    renderSaved();
+  }
+});
+
 updateSavedCount();
 loadConditions();

@@ -34,13 +34,6 @@ async function loadCondition() {
 }
 
 
-function updateSaveButton() {
-  const saved = isSaved(id);
-  saveButton.textContent = saved ? "Remove from saved" : "Save this condition";
-  saveButton.setAttribute("aria-pressed", saved);
-}
-
-
 function fillList(listId, items) {
   const ul = document.getElementById(listId);
   ul.replaceChildren();
@@ -58,6 +51,12 @@ function fillList(listId, items) {
     }
     ul.appendChild(li);
   });
+}
+
+function updateSaveButton() {
+  const saved = isSaved(id);
+  saveButton.textContent = saved ? "Remove from saved" : "Save this condition";
+  saveButton.setAttribute("aria-pressed", saved);
 }
 
 function showCondition(c) {
