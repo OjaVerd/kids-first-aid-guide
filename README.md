@@ -15,28 +15,52 @@ frameworks later.
 > emergency, call 911.
 
 ### Features
-- Condition data loaded asynchronously from a local JSON file
-- Search to filter conditions as you type
-- Detail view for each condition, with emergency signs listed first
-- Loading and error states for the data fetch
+- Loads condition data asynchronously from a local JSON file
+
+- Search bar filters conditions instantly as you type
+
+- Dedicated detail page for each condition
+
+- Shows loading, not‑found, and error states during data fetch
+
 - Responsive layout using CSS Grid and Flexbox
-- Semantic HTML, labeled form controls, and keyboard-visible focus styles
-- Save conditions to a personal list using localStorage *(remove if not built)*
+
+- Semantic HTML structure with accessible labels and visible keyboard focus
+
+- Save/remove conditions using localStorage
+
+- “My saved conditions” list with remove buttons
+
 
 
 ## Project Structure
 ```
-index.html           Page structure
-style.css            Styles
-script.js            Fetching, search, and rendering
-data/conditions.json Condition content
+index.html           Main condition list page
+condition.html       Single condition detail page
+style.css            App styling and layout
+script.js            Search + list rendering
+condition.js         Load and display one condition
+saved.js             LocalStorage saving logic
+data/conditions.json Condition data
 ```
+
+## How to Run
+The app loads a local JSON file with `fetch()`, so it must be served over
+HTTP. 
+
+**Option 1: VS Code Live Server**
+1. Clone the repo and open the folder in VS Code.
+2. Install the Live Server extension.
+3. Right-click `index.html` and choose **Open with Live Server**.
+
+
+Then open http://localhost:8000.
 
 ## Data Source Credits
 Condition content in `data/conditions.json` was written in my own words
 based on guidance from the following sources:
 
-- American Academy of Pediatrics (HealthyChildren.org): 
+- American Academy of Pediatrics (HealthyChildren.org) (Eventually will be used)
 
 This project is not affiliated with or endorsed by the American Academy
 of Pediatrics.

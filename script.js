@@ -1,23 +1,3 @@
-// async/await = async = makes a function return a promise
-//               await = makes an async function wait for a promise
-                
-//              Allows you write asynchronous code in a syncronous manner
-//              Async doesn't have resolve or reject parameters
-//              Everything after Await is placed in an event queue
-
-
-// I want the page to pull information from the jsons and put it into seperate tabs that are minimized by default. someone searches for something then it will scroll
-// down to the condition and give the information. 
-
-// Get the data
-// for each condition, make a panel,
-// Make a user 
-// a search bar with inputs
-// allow typing of a condition
-// match typing to condition
-// page scrolls to condition and opens it
-// detailed information at the condition
-
 const loading = document.getElementById("loading");
 const error = document.getElementById("error");
 const form = document.getElementById("search-form");
