@@ -64,3 +64,7 @@ based on guidance from the following sources:
 
 This project is not affiliated with or endorsed by the American Academy
 of Pediatrics.
+
+## AI assistance Disclosure
+There was Ai assistance used to scalp the website of HealthyChildren.org as well as the development of
+this program. Specifically with knowing the best color combinations for css
